@@ -9,4 +9,4 @@ router.get('/some', function func2(request, response) {
     response.json({"message": "hello", "sender": "me"});
 });
 
-modules.exports = router;
+module.exports = router;
